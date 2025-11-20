@@ -113,3 +113,5 @@ public class AppTest extends TestCase {
         assertEquals(24, p.age);
     }
 }
+mvn exec:java
+
