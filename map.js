@@ -1,3 +1,10 @@
+mvn archetype:generate -DgroupId=com.example.demo \
+-DartifactId=SampleProject \
+-DarchetypeArtifactId=maven-archetype-quickstart \
+-DinteractiveMode=false
+
+src/main/java/com/example/demo/App.java
+
 pom.xml
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
